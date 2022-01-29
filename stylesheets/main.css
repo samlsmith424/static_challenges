@@ -17,7 +17,6 @@ button {
   right: 0px;
   top: 0px;
   font-size: 18px;
-
 }
 
 h2 {
@@ -66,29 +65,10 @@ p.ex2 {
 
 div.site_seeing {
   background-color: gray;
-  /* padding: 50px; */
   padding-left: 30px;
-  /* padding-right: -50px; */
   padding-bottom: 15px;
+}
 
-}
-/* .tabs {
-  /* padding-top: 20px; */
-/* }
-.tab1 {
-  text-align: left;
-  margin-left: 5%;
-  padding-bottom: 0;
-
-}
-.tab2 {
-  text-align: center;
-}
-.tab3 {
-  text-align: right;
-  margin-right: 20%; */
-  /* padding-right: 200px; */
-/* } */
 .tab {
   font-size: 30px;
   font-family: Arial;
@@ -109,14 +89,11 @@ footer {
 .column {
   float: left;
   width: 33.33%;
-  /* padding: 0px;
-  padding-top: -10px; */
 }
 
 .row::after {
   content: "";
   clear: both;
-  /* display: table; */
   display: flex;
   spacing: 10px;
 }
